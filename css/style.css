@@ -1,14 +1,15 @@
 body { 
   padding-top: 30px;
+  background-color: #DDECEF;
 }
 
 a {
-	color: #0DA1FF;
+	color: #0A82CC;
 	text-decoration: underline;
 }
 
 a:hover{
-	color: #0A82CC;
+	color: #0DA1FF;
 }
 
 strong{
