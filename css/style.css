@@ -1,0 +1,34 @@
+body { 
+  padding-top: 30px;
+}
+
+a {
+	color: #0DA1FF;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: #0A82CC;
+}
+
+strong{
+	text-decoration: underline;
+}
+
+#myCarousel img{
+height: 150px;
+width: auto;
+margin: 0 auto;
+}
+
+.carousel-indicators{
+	visibility: hidden;
+}
+
+#imgBtn{
+	margin-top: 35%;
+}
+
+#smulogo{
+	height:75px;
+}
