@@ -54,3 +54,17 @@ strong{
 .lead {
   font-size: 3.5em;
 }
+
+.top {
+  margin: 0% 0% 0% 22%;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-width: 2px;
+  text-fill-color: #fff;
+  text-stroke-color: #000;
+  text-stroke-width: 2px;
+}
+
+.toph1 {
+  font-weight: bold;
+}
