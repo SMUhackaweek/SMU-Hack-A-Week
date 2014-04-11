@@ -21,65 +21,28 @@
               cycle: true
           });
       });
-      var jumboHeight = $('.jumbotron').outerHeight();
-      function parallax(){
-          var scrolled = $(window).scrollTop();
-          $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-      }
-
-      $(window).scroll(function(e){
-          parallax();
-      });
     </script>
   </head>
 
   <body>
-    
-
-
+    <!-- Header Background Image -->
     <div class="bg"></div>
-
-    <div class="jumbotron">
-    </div>
-
-    <!-- Header -->
-    <div class="container">
-      <div class="row">
-        <div class="page-header">
-            <h1 id="mainh1"><img src="sponsors/smu.png" id="smulogo" />  Saint Mary's University Hack-A-Week 2014</h1>
-        </div>
-      </div><!-- end row -->
-    </div><!-- end Header container -->
+    <div class="jumbotron"></div>
+    <!-- End Header Background Image -->
 
     <!-- Main Page -->
     <div class="container">
       
       <div class="row">
         <div class="col-md-12">
-          <blockquote>
-            <p>"The Hack-a-week event at Saint Mary's University offers valuable hands-on experience for students, and shows how our educational institutions can work with industry to create real life experiences and opportunities. It is of true benefit to all involved." - Kelly Regan, MLA</p>
-          </blockquote>
-
-          <p>
-            In 2013, Saint Mary's changed the format of its fourteen year old high school programming competition to a week long development competition. The hack-a-week was very successful with participation from more than 30 high school students and half a dozen industry sponsors. <br /><br />
-
-            In 2014, we're at it again, this time opening to students at all levels aswell as the general public. If you fit into one of these categories, you're in!<br />
-
-            <ul>
-              <li>High School Student</li>
-              <li>University Student</li>
-              <li>Open Category Participant </li>
-            </ul>
-            We strongly encourage collaborations between the categories and there will be special prizes for hybrid teams. Teams can be re-configured on May 2nd to include up to four members.
-          </p>
-        </div><!-- end ABOUT col3 -->
+          <p class="lead">May 2-10 2014, SMU's largest hackathon. Slick prizes. 3 Categories. Unlimited potential.</p>
+        </div><!-- end ABOUT col -->
       </div><!-- end about -->
 
-      <div class="row">
-        <a id="info"></a>
-        <div class="col-md-4"><!-- When -->
+      <div class="row"> <!-- Details -->    
+        <div class="col-md-6"><!-- Schedule -->
           <div class="page-header">
-          <h1>When?</h1>
+          <h1>Schedule</h1>
           </div>         
           <div class="panel-group" id="accordion">
             <div class="panel panel-default">
@@ -90,7 +53,7 @@
                   </a>
                 </h4>
               </div>
-              <div id="collapseOne" class="panel-collapse collapse">
+              <div id="collapseOne" class="panel-collapse">
                 <div class="panel-body">
                   <p>
                   <strong>9 - 10 am:</strong> Registration and Breakfast.<br />
@@ -135,95 +98,61 @@
               </div>
             </div>
           </div>
-        </div><!-- end WHEN col3 -->
+        </div><!-- end Schedule col -->
 
-        <div class="col-md-4"><!-- registration -->
+        <div class="col-md-6"><!-- registration -->
           <div class="page-header">
             <h1>Registration</h1>
           </div>
           <p>
-          Sign up through our eventbrite event<br />
-          <strong>Before April 19th</strong> via:<br /><br />  
+          Sign up through our eventbrite <strong>Before April 19th</strong><br /><br />  
           <a href="http://www.eventbrite.ca/e/smu-hack-a-week-2014-tickets-11018238849" target="_blank"><button type="button" class="btn btn-default">Event Sign Up</button></a>
           </p> 
-        </div><!-- end REGISTRATION col3 -->
-
-        <div class="col-md-4"> <!-- Where -->
-          <div class="page-header">
-            <h1>Where?</h1>
-          </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2839.321399622629!2d-63.58190219999998!3d44.6313476999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a223f94860a5d%3A0xdd0961dfd426d80d!2sSaint+Mary&#39;s+University!5e0!3m2!1sen!2sca!4v1394285963708" width="400" height="300" frameborder="0" style="border:0"></iframe><br /><br />
-          <a href="http://www.smu.ca/documents/campus-map.pdf" target="_blank"><button type="button" class="btn btn-default">Campus Map <span class="glyphicon glyphicon-file"></span></button></a>
-        </div><!-- end where col4 -->      
+        </div><!-- end REGISTRATION col -->         
       </div><!-- end Details -->
 
       <div class="row">
-        <a id="sponsors"></a>
-        <div class="span12">
+        <div class="col-md-12">
           <div class="page-header">
             <h1>Sponsors</h1>
           </div>
-         
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
-              <li data-target="#myCarousel" data-slide-to="4"></li>
-              <li data-target="#myCarousel" data-slide-to="5"></li>
-              <li data-target="#myCarousel" data-slide-to="6"></li>
-            </ol>
-        
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-             
-              <div class="active item">
-                <a href="http://www.microsoft.com/" target="_blank">
-                <img src="sponsors/msft-logo.jpg" />
-                </a>
-              </div>
-              <div class="item">
-                <a href="http://novascotia.ca/lae/" target="_blank">
-                <img src="sponsors/ns.png">
-                </a>
-              </div>
-              <div class="item">
-                <a href="http://lixar.com/" target="_blank"></a>
-                <img src="sponsors/lixar.png">
-              </div>
-              <div class="item">
-                <a href="http://www.goinstant.com/" target="_blank">
-                <img src="sponsors/goinstant.png" />
-                </a>            
-              </div>
-              <div class="item">
-                <a href="http://www.frontier.co.uk/" target="_blank">
-                <img src="sponsors/frontier.png" />
-                </a>          
-              </div>
-              <div class="item">
-                <a href="http://www.simplycast.com/" target="_blank">
-                <img src="sponsors/simplycast.png" />
-                </a>            
-              </div>
-              <div class="item">
-                <a href="https://compilr.com/" target="_blank">
-                <img src="sponsors/compilr.png" />    
-                </a>
-              </div>
-            </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-circle-arrow-left" id="imgBtn"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-circle-arrow-right" id="imgBtn"></span>
-            </a>
-          </div>
         </div>
-      </div><!-- end Sponsors -->
+      </div><!-- end Sponsors Title -->
+
+      <!-- Sponsor Images -->
+      <div class="row">
+        <div class="col-md-4">
+          <a href="http://www.microsoft.com/" target="_blank"><img class="sponsorImg" src="sponsors/msft-logo.jpg" /></a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://compilr.com/" target="_blank"><img class="sponsorImg" src="sponsors/compilr.png" /></a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://lixar.com/" target="_blank"><img class="sponsorImg" src="sponsors/lixar.png"></a>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col-md-4">
+          <a href="http://www.goinstant.com/" target="_blank"><img class="sponsorImg" src="sponsors/goinstant.png" /></a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://www.frontier.co.uk/" target="_blank"><img class="sponsorImg" src="sponsors/frontier.png" /></a> 
+        </div>
+        <div class="col-md-4">
+          <a href="http://www.simplycast.com/" target="_blank"><img class="sponsorImg" src="sponsors/simplycast.png" /></a> 
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <a href="http://novascotia.ca/lae/" target="_blank"><img class="sponsorImg" src="sponsors/ns.png"></a>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <!-- end Sponsor Images -->
 
       <br />
       <div class="row">
