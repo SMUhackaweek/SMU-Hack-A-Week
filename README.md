@@ -1,5 +1,7 @@
 # Saint Mary's University Hack-A-Week 2014 Website
 
+View the current [hosted version](http://cs.smu.ca/hackathon). Or the latest on [github pages](http://frozenfire92.github.io/SMU-Hack-A-Week-2014/).  
+
 ## Usage
 
 Simply open the `index.html` file in your web browser.
@@ -10,7 +12,7 @@ Simply open the `index.html` file in your web browser.
 python -m SimpleHTTPServer
 ```
 
-## Screenshost
+## Screenshots
 
 To generate these screenshots see [Pageres](https://github.com/sindresorhus/pageres).
 
