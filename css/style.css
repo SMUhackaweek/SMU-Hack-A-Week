@@ -34,21 +34,21 @@ strong{
 	height:75px;
 }
 
-/*.bg {
+.bg {
   background: url('../HackAWeek.png') no-repeat center center;
   position: absolute;
   width: 100%;
-  height: 351px; /*same height as jumbotron
+  height: 351px; /*same height as jumbotron */
   top:0;
   left:0;
   z-index: -1;
-}*/
+}
 
 .jumbotron {
-  height: 350px;
+  height: 351px;
   color: white;
   text-shadow: #444 0 1px 1px;
-  background: url('../HackAWeek.png') no-repeat center center;
+  background:transparent;
 }
 
 .lead {
