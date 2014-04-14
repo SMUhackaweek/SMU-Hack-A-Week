@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color: #0A82CC;
+	color: #156CD4;
 	text-decoration: underline;
 }
 
@@ -52,4 +52,8 @@ strong{
 iframe.map {
   height: 300px;
   width: 100%;
+}
+
+.panel-heading h4 a:hover{
+  color: #000000;
 }
