@@ -26,7 +26,7 @@ pageres http://127.0.0.1:8000/ 1366x768 640x1136 # Create two screenshots of the
 ```
 
 ### Mobile (iPhone, 640x1136)
-![mobile](screenshots/640x1136.png)
+![mobile](images/screenshots/640x1136.png)
 
 ### Desktop (1366x768)
-![desktop](screenshots/1366x768.png)
+![desktop](images/screenshots/1366x768.png)
