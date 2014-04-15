@@ -8,6 +8,10 @@ a {
 	text-decoration: underline;
 }
 
+h2 {
+  color: white;
+}
+
 a:hover{
 	color: #0DA1FF;
 }
@@ -27,7 +31,7 @@ strong{
 }
 
 .jumbotron{
-  background-color: #2ECC40;
+  background-color: #00843D;
 }
 
 .bg {
@@ -59,9 +63,9 @@ iframe.map {
 }
 
 .panel-heading h4 a{
-  color: #333333;
+  color: #fff;
 }
 
 .panel-heading h4 a:hover{
-  color: #000000;
+  color: #fff;
 }
