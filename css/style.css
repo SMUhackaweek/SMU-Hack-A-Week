@@ -8,9 +8,9 @@ a {
 	text-decoration: underline;
 }
 
-h2 {
+/*h2 {
   color: white;
-}
+}*/
 
 a:hover{
 	color: #0DA1FF;
@@ -31,7 +31,7 @@ strong{
 }
 
 .jumbotron{
-  background-color: #00843D;
+  background-color: #CCC;
 }
 
 .bg {
@@ -41,11 +41,6 @@ strong{
   top:0;
   left:0;
   z-index: -1;
-}
-
-.lead {
-  font-size: 1em;
-  font-weight: bold;
 }
 
 .top {
