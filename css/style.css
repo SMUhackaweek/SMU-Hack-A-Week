@@ -1,6 +1,6 @@
 body {
   padding-top: 30px; 
-  background-color: #AACC00 /* #C0EDFA  #DDECEF */;
+  background-color: #F7F7F7 /* #C0EDFA  #DDECEF */;
 }
 
 a {
@@ -26,6 +26,10 @@ strong{
 	height:75px;
 }
 
+.jumbotron{
+  background-color: #2ECC40;
+}
+
 .bg {
   background: url('../images/HackAWeek.png') no-repeat center center;
   width: 100%;
@@ -36,7 +40,7 @@ strong{
 }
 
 .lead {
-  font-size: 3.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -52,6 +56,10 @@ strong{
 iframe.map {
   height: 300px;
   width: 100%;
+}
+
+.panel-heading h4 a{
+  color: #333333;
 }
 
 .panel-heading h4 a:hover{
