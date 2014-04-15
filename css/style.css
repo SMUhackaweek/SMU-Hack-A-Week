@@ -5,16 +5,7 @@ body {
 }
 
 a {
-	color: #156CD4;
 	text-decoration: none;
-}
-
-/*h2 {
-  color: white;
-}*/
-
-a:hover{
-	color: #0DA1FF;
 }
 
 strong{
@@ -31,14 +22,9 @@ strong{
 	height:75px;
 }
 
-/*.jumbotron{
-  background-color: #CCC;
-}*/
-
 .bg {
   background: url('../images/HackAWeek.png') no-repeat center center;
   width: 100%;
-  height: 351px;
   top:0;
   left:0;
   z-index: -1;
@@ -64,4 +50,8 @@ iframe.map {
 
 .panel-heading h4 a:hover{
   color: #fff;
+}
+
+.jumbotron h1{
+  color: white;
 }
