@@ -1,6 +1,7 @@
 body {
   padding-top: 30px; 
   background-color: #F7F7F7 /* #C0EDFA  #DDECEF */;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -30,9 +31,9 @@ strong{
 	height:75px;
 }
 
-.jumbotron{
+/*.jumbotron{
   background-color: #CCC;
-}
+}*/
 
 .bg {
   background: url('../images/HackAWeek.png') no-repeat center center;
