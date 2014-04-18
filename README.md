@@ -1,6 +1,6 @@
 # Saint Mary's University Hack-A-Week 2014 Website
 
-View the current [hosted version](http://cs.smu.ca/hackathon). Or the latest on [github pages](http://frozenfire92.github.io/SMU-Hack-A-Week-2014/).  
+View the current [hosted version](http://cs.smu.ca/hackathon). Or the latest on [github pages](http://smuhackaweek.github.io/SMU-Hack-A-Week-2014/).  
 
 ## Usage
 
