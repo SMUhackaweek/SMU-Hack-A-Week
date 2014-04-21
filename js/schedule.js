@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var may3 = new Date();
 	may3.setFullYear(2014,5,3);
-	var may9 = new Date();
+	var may10 = new Date();
 	may10.setFullYear(2014,5,10);
 	var today = new Date();
 	
