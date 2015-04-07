@@ -21,3 +21,13 @@ Temporary Items
 
 # ===== End Global/OSX.gitignore =====
 
+### https://raw.github.com/github/gitignore/62d6528cb16b198a8387a3398d91e674973006d0/Global/vim.gitignore
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
